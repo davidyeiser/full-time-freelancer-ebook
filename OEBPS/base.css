@@ -1,0 +1,36 @@
+* { margin: 0; padding: 0; }
+
+body { font-size: 100%; color: #000; }
+
+/* Base typesetting */
+
+p, ul, ol { padding-bottom: 1.333em; font-size: 1em; line-height: 1.4em; text-align:left; text-indent: 0; }
+em { font-style: italic; }
+ol { margin: 0; padding: 0; list-style: none; }
+ol li { list-style-type: none; }
+li { display: block; padding-bottom: 0.5em; }
+.footnotes { padding-top: 1em; font-size: 0.85em; font-style: italic; }
+sup { font-size: 68%; line-height: 100%; vertical-align: super; }
+
+p.chapter-number { padding-bottom: 0.5em; font-size: 1.1em; }
+h1 { padding: 0 0 2.75em 0; font-size: 1.5em; font-weight: bold; line-height: 1em; }
+h2 { padding: 0 0 2.75em 0; font-size: 1.4em; font-style: italic; font-weight: normal; line-height: 1em; }
+h3 { padding: 1em 0 0.75em 0; font-size: 1em; font-weight: bold; letter-spacing: 1px; line-height: 1em; text-transform: uppercase; }
+
+.sky { color: #7acee0; }
+.navy { color: #08519f; }
+.red { color: #d6272f; }
+
+p.block-quote { padding: 0 1em 1.5em 1em; font-size: 90%; line-height: 111%; }
+p.block-quote + p.block-quote { margin-top: -1em; }
+a.url { font-family: monospace; }
+
+table { text-align: left; }
+table caption, .caption { padding: 5px; font-weight: bold; letter-spacing: 1px; text-align: left; text-transform: uppercase; border-bottom: 3px solid #333333; }
+table tr { }
+table th { padding: 3px 5px; font-weight: bold; text-align: left; border-bottom: 1px solid #999999; }
+table th.money-th { text-align: right; }
+table td { padding: 3px 5px; text-align: left; vertical-align: text-bottom; border-bottom: 1px solid #999999; }
+table td.money { font-family: monospace; text-align: right; }
+
+span.title-page-title { display: block; font-size: 150%; line-height: 67%; }

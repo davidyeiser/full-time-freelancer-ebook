@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<package version="2.0" xmlns="http://www.idpf.org/2007/opf" unique-identifier="bookid">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+		<meta name="cover" content="Cover.jpg" />
+		<dc:title>Full-time Freelancer</dc:title>
+		<dc:creator>David Yeiser</dc:creator>
+		<dc:subject>Revenue &#38; expenses as a freelance designer</dc:subject>
+		<dc:description>Full-time Freelancer summarizes how much I made and spent as a full-time freelancer from 2010 and 2011. It’s meant to be a helpful insight into what kind of finances are involved if you want to make a go at freelancing full-time.</dc:description>
+		<dc:publisher>David Yeiser Co.</dc:publisher>
+		<dc:date>2015</dc:date>
+		<dc:source></dc:source>
+		<dc:relation></dc:relation>
+		<dc:coverage></dc:coverage>
+		<dc:rights>All rights reserved.</dc:rights>
+		<dc:language>en-US</dc:language>
+		<dc:identifier id="bookid">urn:uuid:0E9A7740-CCAD-401D-9C4A-244B08254483</dc:identifier>
+	</metadata>
+	<manifest>
+		<item id="style" href="base.css" media-type="text/css" />
+		<item id="cover" href="cover.xhtml" media-type="application/xhtml+xml" />
+		<item id="title_page" href="title_page.xhtml" media-type="application/xhtml+xml" />
+		<item id="copyright" href="copyright-warranty.xhtml" media-type="application/xhtml+xml" />
+		<item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml" />
+		<item id="table_of_contents" href="table_of_contents.xhtml" media-type="application/xhtml+xml" />
+		<item id="intro" href="intro.xhtml" media-type="application/xhtml+xml" />
+		<item id="sec_expenses" href="section_break_expenses.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch_01" href="ch_01_basic_expenses.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch_02" href="ch_02_cost_of_doing_business.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch_03" href="ch_03_financial_and_legal.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch_04" href="ch_04_generosity.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch_05" href="ch_05_taking_care_of_yourself.xhtml" media-type="application/xhtml+xml" />
+		<item id="sec_revenue" href="section_break_revenue.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch_06" href="ch_06_client_work.xhtml" media-type="application/xhtml+xml" />
+		<item id="sec_financials" href="section_break_financials.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch_07" href="ch_07_2010_summary.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch_08" href="ch_08_2011_summary.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch_09" href="ch_09_conclusion.xhtml" media-type="application/xhtml+xml" />
+		<item id="ack" href="acknowledgments.xhtml" media-type="application/xhtml+xml" />
+		<item id="about_author" href="about_the_author.xhtml" media-type="application/xhtml+xml" />
+		<item id="about_book" href="about_the_book.xhtml" media-type="application/xhtml+xml" />
+		<item id="Cover.jpg" href="image/Cover.jpg" media-type="image/jpg" />
+		<item id="EndPage_mark" href="image/EndPage-mark.png" media-type="image/png" />
+		<item id="Figure1-2010-Expenses-vs-Revenue.png" href="image/Figure1-2010-Expenses-vs-Revenue.png" media-type="image/png" />
+		<item id="Figure1-2010-Expenses-vs-Revenue.TrendLines.png" href="image/Figure1-2010-Expenses-vs-Revenue.TrendLines.png" media-type="image/png" />
+		<item id="Figure3-2011-Expenses-vs-Revenue.png" href="image/Figure3-2011-Expenses-vs-Revenue.png" media-type="image/png" />
+		<item id="Figure3-2011-Expenses-vs-Revenue.TrendLines.png" href="image/Figure3-2011-Expenses-vs-Revenue.TrendLines.png" media-type="image/png" />
+	</manifest>
+	<spine toc="ncx">
+		<itemref idref="title_page" />
+		<itemref idref="copyright" />
+		<itemref idref="table_of_contents" />
+		<itemref idref="intro" />
+		<itemref idref="sec_expenses" />
+		<itemref idref="ch_01" />
+		<itemref idref="ch_02" />
+		<itemref idref="ch_03" />
+		<itemref idref="ch_04" />
+		<itemref idref="ch_05" />
+		<itemref idref="sec_revenue" />
+		<itemref idref="ch_06" />
+		<itemref idref="sec_financials" />
+		<itemref idref="ch_07" />
+		<itemref idref="ch_08" />
+		<itemref idref="ch_09" />
+		<itemref idref="ack" />
+		<itemref idref="about_author" />
+		<itemref idref="about_book" />
+		<itemref idref="EndPage_mark" />
+	</spine>
+	<guide>
+		<reference type="cover" href="cover.xhtml" title="Cover" />
+	</guide>
+</package>

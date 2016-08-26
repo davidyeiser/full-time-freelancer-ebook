@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+	<head>
+		<meta name="dtb:uid" content="urn:uuid:0E9A7740-CCAD-401D-9C4A-244B08254483" />
+		<meta name="dtb:depth" content="0" />
+		<meta name="dtb:totalPageCount" content="0" />
+		<meta name="dtb:maxPageNumber" content="0" />
+	</head>
+	<docTitle>
+		<text>Full-time Freelancer</text>
+	</docTitle>
+	<navMap>
+		<navPoint id="navpoint1" playOrder="1">
+			<navLabel><text>i. Introduction</text></navLabel>
+			<content src="intro.xhtml" />
+		</navPoint>
+		<navPoint id="navpoint2" playOrder="2">
+			<navLabel><text>1. Basic Expenses</text></navLabel>
+			<content src="ch_01_basic_expenses.xhtml" />
+		</navPoint>
+		<navPoint id="navpoint3" playOrder="3">
+			<navLabel><text>2. Cost of Doing Business</text></navLabel>
+			<content src="ch_02_cost_of_doing_business.xhtml" />
+		</navPoint>
+		<navPoint id="navpoint4" playOrder="4">
+			<navLabel><text>3. Financial &amp; Legal</text></navLabel>
+			<content src="ch_03_financial_and_legal.xhtml" />
+		</navPoint>
+		<navPoint id="navpoint5" playOrder="5">
+			<navLabel><text>4. Generosity</text></navLabel>
+			<content src="ch_04_generosity.xhtml" />
+		</navPoint>
+		<navPoint id="navpoint6" playOrder="6">
+			<navLabel><text>5. Taking Care of Yourself</text></navLabel>
+			<content src="ch_05_taking_care_of_yourself.xhtml" />
+		</navPoint>
+		<navPoint id="navpoint7" playOrder="7">
+			<navLabel><text>6. Client Work</text></navLabel>
+			<content src="ch_06_client_work.xhtml" />
+		</navPoint>
+		<navPoint id="navpoint8" playOrder="8">
+			<navLabel><text>7. 2010 Summary</text></navLabel>
+			<content src="ch_07_2010_summary.xhtml" />
+		</navPoint>
+		<navPoint id="navpoint9" playOrder="9">
+			<navLabel><text>8. 2011 Summary</text></navLabel>
+			<content src="ch_08_2011_summary.xhtml" />
+		</navPoint>
+		<navPoint id="navpoint10" playOrder="10">
+			<navLabel><text>9. Conclusion</text></navLabel>
+			<content src="ch_09_conclusion.xhtml" />
+		</navPoint>
+		<navPoint id="navpoint11" playOrder="11">
+			<navLabel><text>ii. Acknowledgments</text></navLabel>
+			<content src="acknowledgments.xhtml" />
+		</navPoint>
+		<navPoint id="navpoint12" playOrder="12">
+			<navLabel><text>iii. About the author</text></navLabel>
+			<content src="about_the_author.xhtml" />
+		</navPoint>
+		<navPoint id="navpoint13" playOrder="13">
+			<navLabel><text>iv. About the book</text></navLabel>
+			<content src="about_the_book.xhtml" />
+		</navPoint>
+	</navMap>
+</ncx>
