@@ -17,7 +17,9 @@ https://www.amazon.com/gp/feature.html?docId=1000765211
 
 In step one you are essentially creating a zip file with the file extension "epub". Then you convert this to a .mobi file which can be read on a Kindle using Amazon's official converter tool.
 
-1. First, you create the ePub file with three Terminal commands. They need to be executed from within the uncompressed ePub directory.
+#### Step 1
+
+First, you create the ePub file with three Terminal commands. They need to be executed from within the uncompressed ePub directory.
 
 ````
 zip -X filename.epub mimetype 
@@ -27,7 +29,12 @@ zip -rg filename.epub OEBPS -x \*.DS_Store
 
 The end result will be filename.epub. And just to be clear "filename" is your file name. For example, mine was Full-time_Freelancer.epub.
 
-2. You can then use Amazon’s KindleGen to convert the ePub to a .mobi file. Using terminal still, navigate to where the ePub file is. (If you haven't moved anywhere after creating it initially you don't have to do anything.) Run the following command:
-`kindlegen filename.epub`
+#### Step 2
+
+Then you can use Amazon’s KindleGen to convert the ePub to a .mobi file. Using terminal still, navigate to where the ePub file is. (If you haven't moved anywhere after creating it initially you don't have to do anything.) Run the following command:
+
+````
+kindlegen filename.epub
+````
 
 And _voilà,_ filename.mobi.
