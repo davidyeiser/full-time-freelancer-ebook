@@ -15,7 +15,7 @@ https://www.amazon.com/gp/feature.html?docId=1000765211
 
 ### Instructions
 
-In step one you are essentially creating a zip file with the file extension "epub". Then you convert this to a .mobi file which can be read on a Kindle using Amazon's official converter tool.
+In step one you are essentially creating a zip file with the file extension “epub”. Then you convert this to a .mobi file which can be read on a Kindle using Amazon's official converter tool.
 
 #### Step 1
 
@@ -27,7 +27,7 @@ zip -rg filename.epub META-INF -x \*.DS_Store
 zip -rg filename.epub OEBPS -x \*.DS_Store
 ````
 
-The end result will be filename.epub. And just to be clear "filename" is your file name. For example, mine was Full-time_Freelancer.epub.
+The end result will be filename.epub. And just to be clear “filename” is your file name. For example, mine was Full-time_Freelancer.epub.
 
 #### Step 2
 
